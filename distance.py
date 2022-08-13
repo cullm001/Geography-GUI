@@ -9,12 +9,6 @@ from geopy import distance
 geoCode = "********"
 geocoder = Nominatim(user_agent="test")
 
-global num_markers
-global markers
-global paths
-global length
-global coords
-
 num_markers = 0
 markers = []
 paths = []
